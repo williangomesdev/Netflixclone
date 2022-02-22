@@ -1,0 +1,38 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
+* {
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+body {
+  background-color: #111;
+  color: #fff;
+  margin: 0;
+}
+
+.movieRow {
+  margin-bottom: 30px;
+}
+.movieRow h2 {
+  margin-left: 30px;
+}
+.movieRow .movieRow--listarea {
+  overflow-x: hidden;
+  padding-left: 30px;
+}
+.movieRow .movieRow--listarea .movieRow--list {
+  width: 999999999999px;
+}
+.movieRow .movieRow--listarea .movieRow--list .movieRow--item {
+  display: inline-block;
+  width: 150px;
+  cursor: pointer;
+}
+.movieRow .movieRow--listarea .movieRow--list .movieRow--item img {
+  width: 100%;
+  transform: scale(0.9);
+  transition: all ease 0.2s;
+}
+.movieRow .movieRow--listarea .movieRow--list .movieRow--item img:hover {
+  transform: scale(1);
+}/*# sourceMappingURL=App.css.map */
