@@ -35,4 +35,8 @@ body {
 }
 .movieRow .movieRow--listarea .movieRow--list .movieRow--item img:hover {
   transform: scale(1);
+}
+
+.featured {
+  height: 100vh;
 }/*# sourceMappingURL=App.css.map */
