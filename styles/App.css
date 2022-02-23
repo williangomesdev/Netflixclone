@@ -39,4 +39,15 @@ body {
 
 .featured {
   height: 100vh;
+}
+
+.featured--vertical {
+  width: inherit;
+  height: inherit;
+  background: linear-gradient(to top, #111 10%, transparent 90%);
+}
+.featured--vertical .featured--horizontal {
+  width: inherit;
+  height: inherit;
+  background: linear-gradient(to right, #111 20%, transparent 80%);
 }/*# sourceMappingURL=App.css.map */

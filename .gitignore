@@ -25,3 +25,6 @@ dist-ssr
 
 #keys
 src/keys.js
+
+#vite
+vite.config.js
