@@ -10,6 +10,10 @@ body {
   margin: 0;
 }
 
+.lists {
+  margin-top: -9.375rem;
+}
+
 .movieRow {
   margin-bottom: 30px;
 }
@@ -54,6 +58,7 @@ body {
   flex-direction: column;
   justify-content: center;
   padding-left: 1.875rem;
+  padding-top: 4.375rem;
 }
 .featured--vertical .featured--horizontal .featured--name {
   font-size: 3.75rem;
