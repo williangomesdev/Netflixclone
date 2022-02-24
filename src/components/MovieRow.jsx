@@ -1,9 +1,17 @@
 import React from "react";
+import ArrowForwardIos from "@mui/icons-material/ArrowForwardIos";
+import ArrowBackIos from "@mui/icons-material/ArrowBackIos";
 
 export default ({ title, items }) => {
   return (
     <div className="movieRow">
       <h2>{title}</h2>
+      <div className="movieRow--left">
+        <ArrowBackIos style={{ fontSize: 50 }} />
+      </div>
+      <div className="movieRow--right">
+        <ArrowForwardIos style={{ fontSize: 50 }} />
+      </div>
       <div className="movieRow--listarea">
         <div className="movieRow--list">
           {items.results.length > 0 &&
