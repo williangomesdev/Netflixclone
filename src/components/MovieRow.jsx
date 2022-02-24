@@ -4,7 +4,7 @@ import ArrowBackIos from "@mui/icons-material/ArrowBackIos";
 
 export default ({ title, items }) => {
   //Listar os cartazes para esquerda ou direita
-  const [scrollX, setscrollX] = useState(-400);
+  const [scrollX, setscrollX] = useState(0);
 
   //botão esquerdo, a cada clique o movie-list ira se mover pela metade da tela do dispositivo
   const handleLeftArrow = () => {
