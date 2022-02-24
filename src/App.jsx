@@ -34,7 +34,7 @@ export default () => {
   }, []);
 
   useEffect(() => {
-    //Aparecer de foma dinâmica o background do header quando o scroll for ativado
+    //Aparecer de maneira dinâmica o background do header quando o scroll for ativado
     const scrollListener = () => {
       if (window.scrollY > 10) {
         setBlackHeader(true);
