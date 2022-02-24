@@ -1,9 +1,9 @@
 import Profile from "../assets/images/profile.png";
 import React from "react";
 
-export default () => {
+export default ({ black }) => {
   return (
-    <header>
+    <header className={black ? "black" : ""}>
       <div className="header--logo">
         <a href="/">
           <img

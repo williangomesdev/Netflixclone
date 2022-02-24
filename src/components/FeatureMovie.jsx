@@ -1,5 +1,4 @@
 import React from "react";
-import "../../styles/App.css";
 
 export default ({ item }) => {
   let firstDate = new Date(item.first_air_date);
