@@ -19,7 +19,7 @@ export default () => {
       //pegar o filme em destaque (Feature)
       let originals = list.filter((i) => i.slug === "originals");
 
-      //pegar filme de maneira aleatoria
+      //pegar filme de maneira aleatória
       let randomChosen = Math.floor(
         Math.random() * (originals[0].items.results.length - 1)
       );
@@ -67,6 +67,16 @@ export default () => {
         <p>Direitos de imagens a Netflix</p>
         <p>Dados de informações pegos no site themoviedb.org</p>
       </footer>
+
+      {/* pagina de carregamento*/}
+      {movieList.length <= 0 && (
+        <div className="loading">
+          <img
+            src="https://media.filmelier.com/noticias/br/2020/03/Netflix_LoadTime.gif"
+            alt="Carregamento"
+          />
+        </div>
+      )}
     </div>
   );
 };
