@@ -148,4 +148,9 @@ header .header--user img {
 }
 .movieRow .movieRow--listarea .movieRow--list .movieRow--item img:hover {
   transform: scale(1);
+}
+
+footer {
+  margin: 50px 0;
+  text-align: center;
 }/*# sourceMappingURL=App.css.map */

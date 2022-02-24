@@ -58,6 +58,14 @@ export default () => {
           <MovieRow key={key} title={item.title} items={item.items} />
         ))}
       </section>
+
+      <footer>
+        <p>
+          Desenvolvido por <span>Willian Amaro Gomes</span>
+        </p>
+        <p>Direitos de imagens a Netflix</p>
+        <p>Dados de informações pegos no site themoviedb.org</p>
+      </footer>
     </div>
   );
 };
