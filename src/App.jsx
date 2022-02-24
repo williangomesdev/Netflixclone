@@ -3,6 +3,7 @@ import Tmdb from "./Tmdb";
 import "../styles/App.css";
 import MovieRow from "./components/MovieRow";
 import FeatureMovie from "./components/FeatureMovie";
+import Header from "./components/Header";
 
 export default () => {
   const [movieList, setMovieList] = useState([]);
@@ -32,6 +33,7 @@ export default () => {
   }, []);
   return (
     <div className="page">
+      <Header />
       {featureData && <FeatureMovie item={featureData} />}
 
       <section className="lists">

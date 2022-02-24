@@ -41,6 +41,24 @@ body {
   transform: scale(1);
 }
 
+header {
+  position: fixed;
+  z-index: 1000000px;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 4.375rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+header .header--logo {
+  height: 30px;
+}
+header .header--logo img {
+  height: 100%;
+}
+
 .featured {
   height: 100vh;
 }
